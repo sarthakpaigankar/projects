@@ -1,4 +1,4 @@
-a=int(input("How many Fibonacci numbers would you like to print? (Enter a positive value):")) or 12
+a=int(input("How many Fibonacci numbers would you like to print? (Enter a positive value):")) or 12#if no value is entered then 12 Fibonacci numbers will be printed
 m=[0,1]
 if a>=0:
   while len(m) <=a:
