@@ -2,6 +2,7 @@ from collections import OrderedDict
 import numpy as np
 
 def most_frequent(g):
+   g =g.replace(" ","")
    g= list(g)
    d={}
    for elements in g:
